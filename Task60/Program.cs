@@ -31,7 +31,6 @@ void PrintMatrix(int[,,] matrix)
             {
                 Console.Write($"{matrix[i, j, k],2}({i}, {j}, {k})  ");
             }
-            
         }
         Console.WriteLine();
     }
